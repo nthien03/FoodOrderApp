@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BTLAPI</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_1">Menu</string>
+    <string name="tab_2">Giỏ hàng</string>
+    <string name="total">Tổng tiền: </string>
+    <string name="order">Đặt món</string>
+    <string name="action_back">Back</string>
+    <string name="action_search">Tìm món ăn</string>
+    <string name="table_title">Vui lòng chọn bàn của bạn để đặt món</string>
+    <string name="cart_empty">Giỏ hàng đang trống</string>
+
+
+</resources>

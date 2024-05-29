@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/tv_amount_bill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text=""
+        android:layout_centerVertical="true"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_food_name_bill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/tv_amount_bill"
+        android:layout_toStartOf="@id/tv_money_bill"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text=""
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_money_bill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:text=""
+        android:textSize="18sp"
+        />
+
+
+
+
+
+
+
+
+</RelativeLayout>
